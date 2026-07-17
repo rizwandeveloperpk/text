@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Instrument_Serif, Inter, IBM_Plex_Mono } from 'next/font/google';
 import { AppProviders } from '@/components/providers/AppProviders';
 import './globals.css';
-
+import { Analytics } from "@vercel/analytics/next"
 const display = Instrument_Serif({
   subsets: ['latin'],
   weight: ['400'],
@@ -39,3 +39,4 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
+<Analytics/>
