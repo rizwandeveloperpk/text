@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { ROUTES } from '@/lib/constants';
 import { UploadDemo } from './UploadDemo';
-
+import { Analytics } from "@vercel/analytics/next"
 export function Hero() {
   return (
     <section className="relative overflow-hidden px-6 pb-20 pt-16 md:pt-24">
