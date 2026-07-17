@@ -35,8 +35,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     >
       <body className="font-body antialiased">
         <AppProviders>{children}</AppProviders>
+        <Analytics/>
       </body>
     </html>
   );
 }
-<Analytics/>
