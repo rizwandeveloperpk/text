@@ -55,7 +55,7 @@ export function Hero() {
         </div>
       </div>
 
-      <div id="upload-demo" className="mx-auto mt-16 max-w-3xl">
+      <div id="upload-demo" className="mx-auto mt-16 max-w-6xl">
         <UploadDemo />
       </div>
     </section>

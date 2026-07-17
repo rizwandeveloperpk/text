@@ -9,7 +9,7 @@ export default function NewConversionPage() {
       <p className="mt-1 text-ink-500 dark:text-vellum-300">
         Upload a handwritten image — it will be saved to your history automatically.
       </p>
-      <div className="mt-8 max-w-2xl">
+      <div className="mt-8 max-w-5xl">
         <UploadDemo />
       </div>
     </div>
